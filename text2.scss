@@ -1,0 +1,98 @@
+        ul,li,h3,p,span{
+                margin: 0;
+                padding: 0;
+            }
+            .box{
+                height: 626px;
+                width: 999px;
+            }
+            ul li{
+                list-style: none;
+            }
+            #ul{
+                height: 626px;
+                width: 999px;
+                background: #f6f5f4;
+            }
+            #li{
+                height: 300px;
+                width: 235px;
+                background: white;
+                float: left;
+                margin: 6px;
+                position: relative;
+            }
+            .span{
+                display: block;
+                background:#fd251d ;
+                height: 20px;
+                width: 64px;
+                font-size: 14px;
+                text-align: center;
+                color: white;
+                margin: 0px 0px 47px 83px;
+            }
+            #li img{
+                margin-left: 50px;
+                margin-bottom: 40px;
+            }
+            .h3{
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-bottom: 7px;
+            }
+            .p{
+                font-size: 12px;
+                color: #ccc;
+                text-align: center;
+            }
+            .spanleft{
+                color: #ff5801;
+                font-size: 12px;
+                margin: 0 3px 0 70px;
+            }
+            .spanright{
+                font-size: 12px;
+                color: #b3afa9;
+                text-decoration: line-through;
+            }
+            .top{
+                height: 140px;
+                width: 235px;
+            }
+            .left{
+                float: left;
+                height: 140px;
+                width: 120px;
+            }
+            .spantop{
+                display: inline-block;
+                margin-top: 30px;
+                line-height: 35px;
+                margin-left: 20px;
+            }
+            .spanbottom{
+                color: orange;
+                margin-left: 20px;
+            }
+            .right{
+                float: left;
+                height: 140px;
+            }
+            .bottom{
+                height: 140px;
+                width: 235px;
+                margin-top: 20px;
+            }
+            .right img{
+                margin-top:30px ;
+            }
+            .move{
+                display: none;
+                background: orange;         
+                height: 50px;
+                width: 235px;
+                position: absolute;
+                bottom: -50px;
+            }

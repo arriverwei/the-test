@@ -1,0 +1,10 @@
+$('#ul>li').on('mouseenter',function(){
+	$(this).children('.move').css('display','block');
+	$(this).stop().animate({'bottom':'5px'},1000)
+	$(this).children('.move').stop().animate({'bottom':'0px'},1000)
+})
+$('#ul>li').on('mouseleave',function(){
+	$(this).children('.move').css('display','none');
+	$(this).stop().animate({'bottom':'0px'},1000)
+	$(this).children('.move').stop().animate({'bottom':'-20px'},1000)
+})
